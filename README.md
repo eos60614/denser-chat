@@ -49,7 +49,7 @@ which are required for denser-retriever.
 
 ```bash
 cd denser_chat
-docker compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.ylm up -d
 ```
 
 We run the following command to build a chatbot index. The first argument is the sources file which specify files used to build chatbots. Files can be local PDF files, URL PDFs, or URLs. The second argument is the output directory, and the third argument is the index name.
